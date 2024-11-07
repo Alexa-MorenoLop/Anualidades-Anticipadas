@@ -74,7 +74,7 @@ $Número de pagos(n)$= $12 meses * 12 años = 144$
 
 $InteresesAnualizados(i)$= $9.6% = 0.096$
 
-$InteresesPeriodo(r)$= $9.6%/12=0.096/12$
+$InteresesPeriodo(r)$= $9.6/12=0.096/12$
 
 **Cálculo del Valor Futuro (VF)**
 
@@ -191,7 +191,7 @@ $Número de pagos(n)$= $48 abonos mensuales$
 
 $InteresesAnualizados(i)$= $16% = 0.16$
 
-$InteresesPeriodo(r)$= $16%/12 = 0.16/12$
+$InteresesPeriodo(r)$= $16/12 = 0.16/12$
 
 **Cálculo del Valor Actual (VA)**
 
