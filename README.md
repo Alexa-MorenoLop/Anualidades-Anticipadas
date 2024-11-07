@@ -6,6 +6,7 @@ El siguiente trabajo contiene las funciones programadas en R utilizadas en el te
 *Licenciatura en Actuaría y Ciencia de Datos*
 
 Es posible cargar las funciones realizadas por medio del siguiente comando pegandolo en la consola de su workspace. 
+
 ```{r}
 source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 ```
