@@ -1,5 +1,5 @@
 # Funciones-Anualidades-Anticipadas
-El siguiente trabajo contiene las funciones programadas en R utilizadas en el tema Anualidades Vencidas de Matemáticas Financieras para la licenciatura en Actuaria y Ciencia de Datos. 
+El siguiente trabajo contiene las funciones programadas en R utilizadas en el tema Anualidades Anticipadas de Matemáticas Financieras para la licenciatura en Actuaria y Ciencia de Datos. 
 
 *Alexa Moreno López*
 
