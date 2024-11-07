@@ -82,7 +82,7 @@ $InteresesPeriodo(r)$= $9.6%/12=0.096/12$
 
 ```{r}
 
-source("")
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 
 VFsalida=VF(A=150000,r=0.096/12,n=144)
 
@@ -100,7 +100,7 @@ Ahora encontremos el valor de la Anualidad, el cual sabemos que es $150,000.00.
 
 ```{r}
 
-source("")
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 
 Asalida=A(VF=40635832.11,r=0.096/12,n=144)
 
@@ -114,7 +114,7 @@ Asalida
 
 ```{r}
 
-source("")
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 
 nsalida=n(VF=40635832.11,A=150000,r=0.096/12)
 
@@ -130,7 +130,11 @@ Para finalizar con este ejemplo, a continuación es necesario realizar el cálcu
 
 ```{r}
 
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 
+rTasaValor=rTasa(40635832.11,150000,144)
+
+rTasaValor
 ```
 
 # Anualidades Anticipadas con Valor Actual
@@ -195,7 +199,7 @@ $InteresesPeriodo(r)$= $16%/12 = 0.16/12$
 
 ```{r}
 
-source("")
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 
 VAsalida=VA(A=4800,r=0.16/12,n=48)
 
@@ -211,7 +215,7 @@ Si bien conocemos el valor por la información dada en el problema, comprobaremo
 
 ```{r}
 
-source("")
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 
 AVAsalida=AVA(VA=171628.50,r=0.16/12,n=48)
 
@@ -225,7 +229,7 @@ AVAsalida
 
 ```{r}
 
-source("")
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 
 nVAsalida=nVA(VA=171628.50,r=0.16/12,A=4800)
 
@@ -239,8 +243,11 @@ nVAsalida
 Para finalizar con este ejemplo, a continuación es necesario realizar el cálculo de los Intereses del Periodo (r) con el algoritmo programado.
 
 ```{r}
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 
+rTasaVAsalida=rTasaVA(171628.5,4800,48)
 
+rTasaVAsalida
 
 ```
 
