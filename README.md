@@ -7,7 +7,7 @@ El siguiente trabajo contiene las funciones programadas en R utilizadas en el te
 
 Es posible cargar las funciones realizadas por medio del siguiente comando pegandolo en la consola de su workspace. 
 ```{r}
-source("")
+source("https://raw.githubusercontent.com/Alexa-MorenoLop/Funciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 ```
 
 # Anualidades Anticipadas
@@ -74,7 +74,7 @@ $Número de pagos(n)$= $12 meses * 12 años = 144$
 
 $InteresesAnualizados(i)$= $9.6% = 0.096$
 
-$InteresesPeriodo(r)$= $9.6%/12 = 0.096/12$
+$InteresesPeriodo(r)$= $9.6%/12=0.096/12$
 
 **Cálculo del Valor Futuro (VF)**
 
